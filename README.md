@@ -8,7 +8,7 @@
     <i>Can you parse terminal input?</i><br />No, but a <b>Tin</b> can!
     <br /><br />
     <h4>
-      <a href="#bindings">⛓️ Bindings</a> &nbsp-&nbsp <a href="#examples">📖 Examples</a> &nbsp-&nbsp <a href="#quirks">⚙️ Quirks</a> &nbsp-&nbsp <a href="#build">🔨 Build</a> &nbsp-&nbsp <a href="#contributors">❤️ Contributors</a>
+      <a href="#bindings">⛓️ Bindings</a> &nbsp-&nbsp <a href="#examples">📖 Examples</a> &nbsp-&nbsp <a href="#quirks">⚙️ Quirks</a> &nbsp-&nbsp <a href="#examples">🔨 Build</a> &nbsp-&nbsp <a href="#contributors">❤️ Contributors</a>
     </h3>
   </div>
 </div>
@@ -16,11 +16,19 @@
 ---
 
 # Goal
-**Tin** aims to solve a problem given to us from our great ancestors, although at the time they were unaware...
-Terminals have been around as early as 1967 (even earlier if you count teletypewriters), and over time many specs of the devices have changed.
-Some major turning points include the release of the VT52, and VT100 systems.
-Introducing control codes, for tasks like moving the cursor or providig text effects like bold and underline. However, these have been pretty constant throught the years.
-What hasn't been very consistent is **input**, getting input from the terminal *past your abc's and 123's* has been different in almost all systems.
+**Tin** aims to address a problem given to us from our ancestors—though they may not have been aware of it at the time...
+Terminals have been around since at least 1967 (even earlier if you count teletypewriters), and their specifications have evolved over the years.
+Notable milestones include the release of the VT52 and VT100 systems, which introduced control codes for tasks such as cursor movement and text styling (e.g., bold and underline).
+While these features have remained relatively the same over time, input handling has been a different story.
+Beyond basic abc's and 123's, terminal input has varied widely across systems.
 
-Fast forwarding today, backwards compatible jargon has made it an absolute doozy to handle terminal input. So once again, **Tin** aims to solve this provlem given to us down the years.
-If the terminals won't change, the developers will. Tin is an avoidance library, without losing *much* capability for the ease of development.
+Fast forward to today, backward compatible jargon has made it an absolute doozy to handle terminal input.
+If the terminals won't change, the developers will. Tin is designed as an "avoidance" library, that simplifies development while still supporting *most* of your terminal’s input capabilities.
+
+# Bindings
+Being a pure C library, Tin is already supported by many languages. However I understand how seriously useful having bindings for C libraries are. This section outlines them. If you've created bindings *please create a PR with your bindings in the table!*
+
+# Examples
+I am a huge fan of learning by example. As such I have created tons of small examples to demonstrate how to use the library.
+
+*insert said examples here*
