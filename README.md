@@ -23,10 +23,10 @@ While these features have remained relatively the same over time, input handling
 Beyond basic abc's and 123's, terminal input has varied widely across systems.
 
 Fast forward to today, backward compatible jargon has made it an absolute doozy to handle terminal input.
-If the terminals won't change, the developers will. Tin is designed as an "avoidance" library, that simplifies development while still supporting *most* of your terminal’s input capabilities.
+Tin is designed as an "avoidance" library, that simplifies development while still supporting *most* of your terminal’s input capabilities.
 
 # Bindings
-Being a pure C library, Tin is already supported by many languages. However I understand how seriously useful having bindings for C libraries are. This section outlines them. If you've created bindings *please create a PR with your bindings in the table!*
+If you've created bindings *please create a PR with your bindings in the table!*
 
 # Examples
 I am a huge fan of learning by example. As such I have created tons of small examples to demonstrate how to use the library.
