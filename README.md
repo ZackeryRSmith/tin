@@ -16,19 +16,19 @@
 ---
 
 # Goal
-**Tin** aims to address a problem given to us from our ancestors—though they may not have been aware of it at the time...
+**Tin** aims to address a problem given to us by our ancestors—though they may not have been aware of it then...
 Terminals have been around since at least 1967 (even earlier if you count teletypewriters), and their specifications have evolved over the years.
 Notable milestones include the release of the VT52 and VT100 systems, which introduced control codes for tasks such as cursor movement and text styling (e.g., bold and underline).
-While these features have remained relatively the same over time, input handling has been a different story.
+While these features have remained relatively unchanged, input handling has not.
 Beyond basic abc's and 123's, terminal input has varied widely across systems.
 
-Fast forward to today, backward compatible jargon has made it an absolute doozy to handle terminal input.
-Tin is designed as an "avoidance" library, that simplifies development while still supporting *most* of your terminal’s input capabilities.
+Fast forward to today, backward-compatible jargon has made handling terminal input quite a challenge.
+Tin is designed as an "avoidance" library that simplifies development while supporting *most* of your terminal’s input capabilities.
 
 # Bindings
 If you've created bindings *please create a PR with your bindings in the table!*
 
 # Examples
-I am a huge fan of learning by example. As such I have created tons of small examples to demonstrate how to use the library.
+I am a huge fan of learning by example. As such, I have created many small examples to demonstrate how to use the library.
 
 *insert said examples here*
